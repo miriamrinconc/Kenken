@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+	<!--hoja de estilo -->
+	<style>
+		*{
+			border:0;
+			margin:0;
+			padding:0;
+		}
+		body{
+			background:rgb(105, 105, 105);
+			background-size: 700px;
+			width: 100%;
+		}
+		header{
+			background:rgb(128, 0, 0);
+			color: white;
+			height:12%;
+			width: 100%;
+			display: block;
+			overflow: hidden;
+			border-radius: 10px;
+		}
+		#tituloPrincipal{
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 50px;
+		}
+		#listaMenu{
+			padding-left: 1px;
+			position: fixed;
+			width:10%;
+			height: 70%;
+			display: block;
+			overflow: hidden;
+			font-size: 20px;
+			font-weight: bold;
+			color:white;
+		}
+		a{
+			text-decoration: none;
+		}
+		#listaMenu a{
+			color: white;
+			font-size: 15px;
+			font-weight: normal;
+			font-style: normal;
+			font-style: italic;
+		}
+		
+		h1, h2{
+			font-family: "Georgia";
+			font-size: 25px;
+		}
+		
+		#contenido{ 
+			width:84%;
+			height: 100%;
+			text-align: justify;
+			padding-left: 100px;
+			padding-right: 10px;
+			color: black;
+			display: block;
+			overflow: hidden;	
+		}
+		#info img{
+			margin: 0 auto;
+			width: 20%;
+			position: relative;
+			top:0px;
+			left: 0px;
+			display: block;
+			overflow: hidden;
+		}
+		#info, #ayuda{
+			background: white;
+			color:black;
+			border: 1px solid #ddd;
+		    border-radius: 4px;
+		}
+		footer{
+			background: rgb(128, 0, 0);
+			text-align: center;
+			color:white;
+		}
+		
+	</style>
+	<!--Titulo pagina-->
+	<head>
+		<meta charset=utf-8>
+		<title>Kenken</title>
+	<!head>
+	<!--Cuerpo-->
+	<body>
+		<!--Cabecera-->
+		<header>
+			<div id="tituloPrincipal">
+				<p>	KENKEN</p>
+			</div>
+		</header>
+		<!--Menu-->
+		<div id="listaMenu">
+			<p>MENÚ</p>
+			<p></br></p>	
+				<p>
+					<a href="#info">.¿Que es? </a></br>
+					<a href="#ayuda">.Cómo jugar</br>
+					<a href="subirKenken.html">.Subir kenken</br>
+					.Jugar kenken</br>
+					.Kenkens</br>
+				</p>
+		</div>
+		<!--Contenido principal-->
+		<section id="contenido">
+			<div id="info">
+				<h1>¿Qué es?</h1>
+				<p></br></p>
+				<p>El kenken es un juego matemático con operaciones básicas similar al sudoku. Fue desarrollado por un profesor de matemáticas japonés, Tetsuya Miyamoto, para ayudar a sus alumnos a aprender aritmética. De hecho, la palabra "kenken" significa al parecer "cuadrado inteligente" en japonés.</p>	
+				<img src="http://www.kenkenpuzzle.com/assets/4x4-593b6b23883b4db2e32b1dd2c127aaca.png">
+			</div>
+			<p></br><p>
+			<div id="ayuda">
+				<h2>Cómo jugar</h2>
+				<p></br></p>
+				<p>Cómo se ha mencionado anteriormente, un kenken es un juego matemático basado en un una tabla con igual número de filas que columnas. Dichas casillas se pueden unir de maneras arbitrarias para formar poliminós.</br>
+				En la parte de la derecha, se encuentra el menú con el que el usuario podrá cargar un nuevo kenken y una vez cargado, intentar completarlo cumpliendo con los requisitos de cada poliminó expuesto en la casilla más arriba y a la derecha. En caso de que este no esté bien completado se avisará al usuario con un mensaje de error, o por el contrario con un mensaje de validación.</br>
+				En último lugar, se encuentra una referencia a una página para listar todos los kenken cargados anteriormente y que se encuentran a disposición de cualquier usuario.</p>
+
+			</div>
+			<footer>
+				<div id="pie">
+					<p>3 de mayo de 2016</p>
+					<a href=”mailto:mrinc00@estudiantes.unileon.es”>mrincc00@estudiantes.unileon.es</a>
+				</div>
+			</footer>
+		
+	</section>
+	<!body>
+<!html>

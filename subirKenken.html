@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+	<!--hoja de estilo -->
+	<style>
+		*{
+			border:0;
+			margin:0;
+			padding:0;
+		}
+		body{
+			background:rgb(105, 105, 105);
+			background-size: 700px;
+			width: 100%;
+		}
+		header{
+			background:rgb(128, 0, 0);
+			color: white;
+			height:12%;
+			width: 100%;
+			display: block;
+			overflow: hidden;
+			border-radius: 10px;
+		}
+		#tituloPrincipal{
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 50px;
+		}
+		#listaMenu{
+			padding-left: 1px;
+			position: fixed;
+			width:10%;
+			height: 70%;
+			display: block;
+			overflow: hidden;
+			font-size: 20px;
+			font-weight: bold;
+			color:white;
+		}
+		a{
+			text-decoration: none;
+		}
+		#listaMenu a{
+			color: white;
+			font-size: 15px;
+			font-weight: normal;
+			font-style: normal;
+			font-style: italic;
+		}
+		
+		h1{
+			font-family: "Georgia";
+			font-size: 25px;
+			color:black;
+		}
+		
+		#contenido{ 
+			width:84%;
+			height: 100%;
+			text-align: justify;
+			padding-left: 100px;
+			padding-right: 10px;
+			color: black;
+			display: block;
+			overflow: hidden;	
+		}
+		#info{
+			background-color: white;
+			color:black;
+			border: 1px solid #ddd;
+		    border-radius: 4px;
+		}
+		footer{
+			background: rgb(128, 0, 0);
+			text-align: center;
+			color:white;
+		}
+		
+	</style>
+	<!--Titulo pagina-->
+	<head>
+		<meta charset=utf-8>
+		<title>Kenken</title>
+	<!head>
+	<!--Cuerpo-->
+	<body>
+		<!--Cabecera-->
+		<header>
+			<div id="tituloPrincipal">
+				<p>	KENKEN</p>
+			</div>
+		</header>
+		<!--Menu-->
+		<div id="listaMenu">
+			<p>MENÚ</p>
+			<p></br></p>	
+				<p>
+					<a href="#practica1.html" >.¿Que es? </a></br>
+					<a href="#practica1.html">.Cómo jugar</br>
+					.Subir kenken</br>
+					.Jugar kenken</br>
+					.Kenkens</br>
+				</p>
+		</div>
+		<!--Contenido principal-->
+		<section id="contenido">
+			<div id="info">
+				<h1>Subir kenken</h1>
+				<p></br></p>
+				<p>Escoja un archivo de extensión xml para empezar a jugar</p></br>
+				<form action="..." method="get" enctype="multipart/form-data">
+  				<p>Fichero adjunto:</br>
+				<input type="file" name="adjunto" /></p>
+				</form>
+				<p></br></p>
+				<form action "..." method="post">
+					<input type="submit" name="subida" value="Subir"/>
+				</form>
+			</div>
+			<footer>
+				<div id="pie">
+					<p>3 de mayo de 2016</p>
+					<a href=”mailto:mrinc00@estudiantes.unileon.es”>mrincc00@estudiantes.unileon.es</a>
+				</div>
+			</footer>
+		
+	</section>
+	<!body>
+<!html>
